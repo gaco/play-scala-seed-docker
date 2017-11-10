@@ -1,10 +1,11 @@
-####################
+###########################
 # Play Framework Dockerfile
-# Description: Install an example Play Framework application through Seed Template: https://github.com/playframework/play-scala-seed.g8
+# -------------------------
+# Description: An example Play Framework application through Seed Template: https://github.com/playframework/play-scala-seed.g8
 #  It doesn't use activator, as the  official support for the same will be discontinued by the end of 2017.
-#  Thefore this image requires only scala and sbt installed, which are provided by the inherited image: hseeberger/scala-sbt.
+#  This image requires only scala and sbt installed, which are provided by the inherited image: hseeberger/scala-sbt.
 # Git Repository: https://github.com/gaco/play-scala-seed-docker/
-###################
+###########################
 
 # Base image
 FROM hseeberger/scala-sbt
